@@ -9,6 +9,7 @@ from django.db import transaction
 from django.db.models import F
 from datetime import datetime
 
+
 from .hashing_algorithms import ChainingHashTable, LinearProbingHashTable, \
                               QuadraticProbingHashTable, DoubleHashingHashTable
 from .models import HashingLog, HashTableSlot, ChainedElement # Importa los modelos
